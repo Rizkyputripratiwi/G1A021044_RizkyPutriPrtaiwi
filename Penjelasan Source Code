@@ -1,0 +1,50 @@
+Nama : Rizky Putri Pratiwi
+Kelas : Informatika B
+NPM : G1A021044
+
+Penjelasan Source Code
+#include <iostream>
+using namespace std ;
+•	#include merupakan sebuah prosesor pengarah yang mengatakan compiler untuk meletakan kode dari header iostream ke dalam program. 
+Selain itu, jika ingin menggunakan fungsi cout maka kita memerlukan file iostream.h
+•	Using namespace std adalah salah satu instruksi yang dapat kita berikan kepada aplikasi compiler terkait penggunaan fungsi dalam sebuah kerangka yagn sama.
+
+
+int main ()
+{
+float r,t;
+float Volume, Luas;
+float Pi;
+Pi = float (22)/7 ;
+•	Fungsi main digunakan untuk menunjukan judul dari sebuah fungsi.
+•	Float adalah salah satu tipe data Numerik yang memungkinkan untuk menyimpan nilai memori yang bersifat bilangan pecahan atau real, maupun eksponensial.
+•	Fungsi tanda () digunakan untuk mengapit argument fungsi yaitu nilai yang akan dilewatkan fungsi.
+•	Fungsi tanda { pada  fungsi main () menyatakan awalan dari eksekusi program.
+•	Integer adalah salah satu tipe data numerik yang memungkinakan kita untuk menyimpan data dalam bentuk bilangan bulat.
+
+cout <<"\n Program Sederhana Luas & Volume Tabung\n";
+cout <<"Masukan Jari-Jari Lingkaran :";
+cout <<"Masukan Tinggi Tabung :";
+cout <<"Volume Tabung adalah 			:"<< Volume <<endl;
+cout <<"Luas Permukaan Tabung adalah 	:"<<Luas;
+
+•	cout (character out) dipakai untuk menampilan text di layar monitor atau yang digunakan untuk mengarahkan data dalam standar output.
+•	Fungsi tanda <<, yang diketahui sebagai operator pemasukan (insertion operators). Tanda ini untuk mengatakan kepada compiler 
+agar segera menghasilkan output sesuai dengan input kita.
+
+
+cin >> r;
+cin >> t;
+•	Perintah cin adalah perintah dasar C++ untuk proses input atau menerima data masukan dari user.
+•	cin >> r, memasukkan inputan ke variabel r (jari-jari).
+•	cin >> t, memasukkan inputan ke variabel t (tinggi).
+
+return 0;
+}
+•	Fungsi tanda semicolon “;” digunakan untuk mengakhiri sebuah pernyataan. Pada C++ setiap pernyataan   harus diakhiri dengan sebuah tanda semicolon.
+•	Perintah return memiliki fungsi agar sebuah fungsi bisa mengembalikan nilai.
+•	} pada fungsi main () menyatakan akhir dari eksekusi program.
+•	endl merupakan suatu fungsi manipulator yang digunakan untuk menyisipkan karakter NewLine atau mengatur pindah baris
+
+
+
